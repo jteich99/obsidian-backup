@@ -1,0 +1,21 @@
+{
+  "database": "Zotero",
+  "noteImportFolder": "02-Tesis/03-Bibliografia/zotero/",
+  "pdfExportImageDPI": 120,
+  "pdfExportImageFormat": "jpg",
+  "pdfExportImageQuality": 90,
+  "citeFormats": [],
+  "exportFormats": [
+    {
+      "name": "Import #1",
+      "outputPathTemplate": "02-Tesis/03-Bibliografia/zotero/{{citekey}}.md",
+      "imageOutputPathTemplate": "02-Tesis/03-Bibliografia/zotero/{{citekey}}/",
+      "imageBaseNameTemplate": "image",
+      "templatePath": "00-Templates/zotero-template.md"
+    }
+  ],
+  "citeSuggestTemplate": "[[{{citekey}}]]",
+  "openNoteAfterImport": true,
+  "whichNotesToOpenAfterImport": "first-imported-note",
+  "shouldConcat": true
+}

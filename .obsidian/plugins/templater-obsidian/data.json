@@ -1,0 +1,41 @@
+{
+  "command_timeout": 5,
+  "templates_folder": "00-Templates",
+  "templates_pairs": [
+    [
+      "",
+      ""
+    ]
+  ],
+  "trigger_on_file_creation": true,
+  "auto_jump_to_cursor": false,
+  "enable_system_commands": false,
+  "shell_path": "",
+  "user_scripts_folder": "",
+  "enable_folder_templates": true,
+  "folder_templates": [
+    {
+      "folder": "02-Tesis/01-Log",
+      "template": "00-Templates/Template logs Tesis.md"
+    },
+    {
+      "folder": "02-Tesis/02-Reuniones",
+      "template": "00-Templates/Template reunión Tesis.md"
+    },
+    {
+      "folder": "02-Tesis/01-Log/00-Consultas",
+      "template": "00-Templates/Template consultas.md"
+    }
+  ],
+  "syntax_highlighting": true,
+  "syntax_highlighting_mobile": false,
+  "enabled_templates_hotkeys": [
+    "00-Templates/template-project-tesis.md",
+    "00-Templates/template-mainpage-proyecto-stamm.md",
+    "00-Templates/template-project-task-stamm.md"
+  ],
+  "startup_templates": [
+    ""
+  ],
+  "enable_ribbon_icon": true
+}

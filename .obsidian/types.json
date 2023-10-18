@@ -1,0 +1,14 @@
+{
+  "types": {
+    "aliases": "aliases",
+    "cssclasses": "multitext",
+    "tags": "tags",
+    "estado": "multitext",
+    "Done": "checkbox",
+    "links": "multitext",
+    "activity": "text",
+    "mainpage": "checkbox",
+    "complete": "number",
+    "author": "text"
+  }
+}

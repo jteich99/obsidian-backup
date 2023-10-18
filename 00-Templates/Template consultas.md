@@ -1,0 +1,7 @@
+---
+tags:
+  - project/tesis/consultas
+fecha: <% tp.file.creation_date("YYYY-MM-DD") %>
+estado:
+  - pendiente
+---

@@ -1,0 +1,327 @@
+{
+  "version": 2,
+  "projects": [
+    {
+      "fieldConfig": {
+        "activity": {}
+      },
+      "defaultName": "",
+      "templates": [
+        "00-Templates/template-project-tesis.md"
+      ],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "folder",
+        "config": {
+          "path": "02-Tesis/05-Tesis Project Folder",
+          "recursive": false
+        }
+      },
+      "newNotesFolder": "02-Tesis/05-Tesis Project Folder",
+      "views": [
+        {
+          "config": {
+            "includeFields": [
+              "status"
+            ],
+            "groupByField": "activity",
+            "columns": {
+              "Simulaciones": {
+                "weight": 0
+              },
+              "Lectura": {
+                "weight": 1
+              },
+              "openFoam": {
+                "weight": 2
+              },
+              "Documentacion": {
+                "weight": 3
+              }
+            }
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": [
+              {
+                "color": "#a882ff",
+                "condition": {
+                  "field": "Status",
+                  "operator": "is",
+                  "enabled": true,
+                  "value": "Doing"
+                }
+              },
+              {
+                "color": "#3db5ff",
+                "condition": {
+                  "field": "Status",
+                  "operator": "is",
+                  "enabled": true,
+                  "value": "Backlog"
+                }
+              },
+              {
+                "color": "#e3ff80",
+                "condition": {
+                  "field": "Status",
+                  "operator": "is",
+                  "enabled": true,
+                  "value": "Paused"
+                }
+              }
+            ]
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "38d6a8cd-b387-4fa4-b0ba-c7d5b6880ece",
+          "name": "Board",
+          "type": "board"
+        },
+        {
+          "config": {
+            "fieldConfig": {
+              "name": {
+                "width": 871
+              },
+              "path": {
+                "hide": true
+              },
+              "links": {
+                "hide": true
+              },
+              "tags": {
+                "hide": true
+              }
+            },
+            "orderFields": [
+              "name",
+              "status",
+              "activity",
+              "tags",
+              "fecha",
+              "links"
+            ]
+          },
+          "filter": {
+            "conditions": [
+              {
+                "field": "status",
+                "operator": "is-not",
+                "enabled": false,
+                "value": "Done"
+              }
+            ]
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": [
+              {
+                "field": "status",
+                "order": "asc",
+                "enabled": true
+              }
+            ]
+          },
+          "id": "4ac609ad-c8b0-43a9-895e-8bac00a4e527",
+          "name": "Table",
+          "type": "table"
+        },
+        {
+          "config": {
+            "fieldConfig": {
+              "links": {
+                "hide": true
+              },
+              "path": {
+                "hide": true
+              },
+              "name": {
+                "width": 869
+              }
+            }
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": [
+              {
+                "color": "#30ff14",
+                "condition": {
+                  "field": "status",
+                  "operator": "is",
+                  "enabled": true,
+                  "value": "Done"
+                }
+              },
+              {
+                "color": "#ff1f80",
+                "condition": {
+                  "field": "status",
+                  "operator": "is",
+                  "enabled": true,
+                  "value": "Backlog"
+                }
+              }
+            ]
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "cd296922-4b0d-4c35-95b5-e1472532b7e9",
+          "name": "All",
+          "type": "table"
+        },
+        {
+          "config": {
+            "columns": {
+              "Backlog": {
+                "weight": 0
+              },
+              "Doing": {
+                "weight": 1
+              },
+              "Done": {
+                "weight": 2
+              }
+            },
+            "groupByField": "Status"
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "11f8b25c-12f6-4adb-b93b-291242866370",
+          "name": "board-status",
+          "type": "board"
+        }
+      ],
+      "id": "80dc612c-06c3-4488-a433-c1c9221fe1c7",
+      "name": "Tesis"
+    },
+    {
+      "fieldConfig": {},
+      "defaultName": "",
+      "templates": [
+        "00-Templates/template-project-task-stamm.md"
+      ],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "folder",
+        "config": {
+          "path": "03-Stamm/Projects - Stamm",
+          "recursive": true
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {
+            "groupByField": "proyecto"
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "3d8af96f-1295-498d-bfaa-7da2908fae56",
+          "name": "board-projects",
+          "type": "board"
+        },
+        {
+          "config": {
+            "fieldConfig": {
+              "path": {
+                "hide": true
+              }
+            },
+            "orderFields": [
+              "name",
+              "proyecto",
+              "status",
+              "tags",
+              "mainpage",
+              "fecha"
+            ]
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "3a99804e-9e8f-441c-9925-0898b40b9a5b",
+          "name": "Table",
+          "type": "table"
+        },
+        {
+          "config": {
+            "groupByField": "status",
+            "columns": {
+              "Backlog": {
+                "weight": 0
+              },
+              "Doing": {
+                "weight": 1
+              },
+              "Paused": {
+                "weight": 2
+              },
+              "Done": {
+                "weight": 3
+              }
+            }
+          },
+          "filter": {
+            "conditions": [
+              {
+                "field": "name",
+                "operator": "is-not-empty",
+                "enabled": true
+              }
+            ]
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "196df6de-6234-488a-bc78-207a92eec020",
+          "name": "board-status",
+          "type": "board"
+        }
+      ],
+      "id": "ebd0c748-0467-402e-8a6e-3353250de0f5",
+      "name": "stamm"
+    }
+  ],
+  "preferences": {
+    "projectSizeLimit": 1000,
+    "frontmatter": {
+      "quoteStrings": "PLAIN"
+    },
+    "commands": [],
+    "linkBehavior": "open-note"
+  }
+}

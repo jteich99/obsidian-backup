@@ -1,0 +1,9 @@
+{
+	"nodes":[
+		{"id":"773d6beab2833f8d","x":-360,"y":-240,"width":420,"height":80,"type":"file","file":"_documents/initialSetup.py.md"},
+		{"id":"ad83220d5dafb688","x":-275,"y":60,"width":125,"height":50,"type":"text","text":"input"}
+	],
+	"edges":[
+		{"id":"30df2954746cb9f5","fromNode":"ad83220d5dafb688","fromSide":"top","toNode":"773d6beab2833f8d","toSide":"bottom"}
+	]
+}

@@ -1,0 +1,12 @@
+---
+tags:
+  - stamm
+---
+- drive especial x prop intelectual
+- canales slack
+	- canal general
+	- canal avisos --> cosas tipo edilicio/infraestecxtura
+- openproject
+	- stammpedia
+- Jteich942
+- Lo99nm33wq00!
